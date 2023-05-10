@@ -1,0 +1,1 @@
+/usr/bin/gcc -g  -rdynamic CMakeFiles/VectorTest.dir/vector_test.c.o  -o VectorTest  ../libvector.a 

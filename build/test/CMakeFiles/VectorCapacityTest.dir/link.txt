@@ -1,0 +1,1 @@
+/usr/bin/gcc -g  -rdynamic CMakeFiles/VectorCapacityTest.dir/vector_capacity_test.c.o  -o VectorCapacityTest  ../libvector.a 
