@@ -12,8 +12,8 @@ typedef struct _vector {
 void init_vector(vector *vec, int word_size);
 void init_with_initial_capacity(vector *vec, int word_size, int capacity);
 void close_vector(vector *vec);
-void get_vector(vector *vec, int idx, void *ret);
-void set_vector(vector *vec, int idx, void *data);
+int get_vector(vector *vec, int idx, void *ret);
+int set_vector(vector *vec, int idx, void *data);
 void push_back_vector(vector *vec, void *data);
 void *pop_back_vector(vector *vec);
 void *back_vector(vector *vec);

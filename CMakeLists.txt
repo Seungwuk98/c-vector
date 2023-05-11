@@ -4,8 +4,15 @@ project(vector VERSION 0.1.0)
 set(CMAKE_C_STANDARD         11)
 set(CMAKE_C_STANDAR_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS       OFF)
+
+# test
 set(VECTOR_TEST VectorTest)
 set(VECTOR_CAPACITY_TEST VectorCapacityTest)
+set(VECTOR_BACK_TEST VectorBackTest)
+set(VECTOR_GET_TEST VectorGetTest)
+set(VECTOR_SET_TEST VectorSetTest)
+
+# library
 set(VECTOR_LIBRARY vector)
 
 include(CTest)
