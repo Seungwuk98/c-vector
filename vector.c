@@ -90,6 +90,13 @@ int empty_vector(vector *vec) {
     return size_vector(vec) == 0;
 }
 
+int copy_vector(vector *vec, vector *ret) {
+    ret->_cap = vec->_cap;
+    ret->_size = vec->_size;
+    ret->_word = vec->_word;
+    memcpy(ret->_table, vec->_table, vec->_word * vec->_cap);
+}
+
 
 
 

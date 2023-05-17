@@ -8,6 +8,8 @@ int main() {
     void *vec = (void *)&_vec;
     init_vector(vec, sizeof(int));
 
+    printf("vector size : %d\n", sizeof(vector));
+
     for (int i=0; i<TEST_SIZE; ++i) {
         push_back_vector(vec, &i);
     }    
