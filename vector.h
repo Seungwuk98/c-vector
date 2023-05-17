@@ -20,6 +20,6 @@ void *back_vector(vector *vec);
 int size_vector(vector *vec);
 void clear_vector(vector *vec);
 int empty_vector(vector *vec);
-int copy_vector(vector *vec, vector *ret);
+int copy_vector(vector *ret, vector *vec);
 
 #endif
